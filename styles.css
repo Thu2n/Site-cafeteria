@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1517;
+    color: #FFFFFF;
+}
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background: #181012;
+
+    max-width: 1120px;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-imagens-container {
+    max-width: 45%;
+    column-count: 2;
+    column-gap: 1rem;
+    margin: -1rem;
+
+}
+
+.Destaque {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #a45a49;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #a45a49;
+
+}
+
+.hero-subtitulo {
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero-imagens-container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.principal {
+
+    background:#181012;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFFFFF;
+
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.cardapio-cabecalho {
+    display: flex;
+    max-width: 1120px;
+    height: 60vh;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cadapio-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32rem;
+    font-weight: 700;
+    color: #fff2e7;
+}
+
+.Cardapio-Subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #c7bab3;
+}
+
+.cardapio-card-container {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cardapio-card {
+    background: #241a1c;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+
+}
+
+.cardapio-card-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cardapio-card-cabecalho-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181a;
+}
